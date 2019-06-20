@@ -1,3 +1,4 @@
+/*
 package com.xmcc.controller;
 
 import org.slf4j.Logger;
@@ -16,3 +17,4 @@ public class TestController {
         return "hello spring_boot";
     }
 }
+*/
