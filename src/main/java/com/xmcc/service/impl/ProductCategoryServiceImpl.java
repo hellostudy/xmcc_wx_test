@@ -24,6 +24,6 @@ public class ProductCategoryServiceImpl implements ProductCategoryService {
         //利用流转化为dto集合
         ResultResponse succes = ResultResponse.success(productCategoryList.stream().map(productCategory ->
                 ProductCategoryDto.build(productCategory)).collect(Collectors.toList()));
-        return ResultResponse.success(succes);
+        return succes;
     }
 }
